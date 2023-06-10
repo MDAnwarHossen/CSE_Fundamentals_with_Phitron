@@ -45,7 +45,7 @@
     string S;
     getline(cin, S);
     
-   It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If you need to process the newline character, you can use **cin.ignore()** or handle it separately.
+   It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If you need to process the newline character, you can use ***cin.ignore()*** or handle it separately.
       
     
     
