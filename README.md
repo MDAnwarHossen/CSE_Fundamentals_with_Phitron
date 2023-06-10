@@ -34,10 +34,20 @@
   </blockquote></details>
   <details><summary>1-8 String Input and Output in C++</summary><blockquote>
     cin object reads input until the next whitespace character (e.g., space, tab, or newline). To read an entire line of input, we can use getline()
-    Syntax 1- 
-    Syntax 2-
+    
+   **Syntax 1-**
+    
+    char S[100];
+    cin.getline(S, 100);
+    
+   **Syntax 2-**
+    
+    string S;
+    getline(cin, S);
+    
+   It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If you need to process the newline character, you can use **cin.ignore()** or handle it separately.
       
-    swap(a, b);
+    
     
   </blockquote></details>
     
