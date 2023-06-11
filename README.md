@@ -55,6 +55,37 @@
       
     int* dynamicArray = new int[size];
     
+   **To Delete an array:**
+    
+    delete[] dynamicArray;
+    
+  </blockquote></details>
+  
+  <details><summary>2-6 Return Dynamic Array from Function</summary><blockquote>
+    It's important to note that directly returning a static array from a function is not possible because the lifetime of a static array is limited to the scope in which it is defined. This means that when a function finishes its work, the static array, along with all the variables declared inside it, will be deleted from the stack memory.
+    
+   If we want to return an array from a function, we must have to make a dynamic array. Moreover, the return type of the function will be a pointer (*).
+   
+   **Syntax below:**
+    
+    int *dynamicArrayFun()
+    {
+      int *ary = new int[5];
+      for (int i = 0; i < 5; i++)
+      {
+        ary[i] = i;
+      }
+    }
+    int main()
+    {
+      int *myArray = dynamicArrayFun();
+      return 0;
+    }
+    
+   **To Delete an array:**
+    
+    delete[] dynamicArray;
+    
   </blockquote></details>
 
   
