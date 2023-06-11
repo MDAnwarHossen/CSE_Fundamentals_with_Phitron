@@ -23,6 +23,7 @@
     int maximumValue = max({a, b, c});
     
    Time Complexity - O(1)
+    
   </blockquote></details>
     
   <details><summary>1-7 swap() Built-in Function in C++</summary><blockquote>
@@ -46,11 +47,15 @@
     getline(cin, S);
     
    It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If you need to process the newline character, you can use ***cin.ignore()*** or handle it separately.
-      
-    
     
   </blockquote></details>
     
+  <details><summary>2-3 Create Dynamic Array</summary><blockquote>
+    To create a dynamic array in C++, we can use pointers and allocate memory on the heap using the new operator. Here's an example of creating a dynamic array:
+      
+    int* dynamicArray = new int[size];
+    
+  </blockquote></details>
 
   
 </blockquote></details>
