@@ -84,9 +84,108 @@
     
    **To Delete an array:**
     
+    delete[] myArray;
+    
+  </blockquote></details>
+    
+  <details><summary>3-5 Return Object from Function</summary><blockquote>
+    Unlike returning an array, we don't need to make it dynamic. We can return an object from a function, even if it is a static object.
+    
+  **Syntax for returning a static object:**
+      
+    class MyClass
+    {
+    public:
+      int val_1;
+      int val_2;
+      MyClass(int val_1, int val_2)
+      {
+        this->val_1 = val_1;
+        this->val_2 = val_2;
+      }
+    };
+    MyClass myFun()
+    {
+      MyClass obj(5, 10);
+      return obj;
+    }
+    int main()
+    {
+      MyClass obj = myFun();
+      cout << obj.val_1 << " " << obj.val_2;
+      return 0;
+    }
+   
+   **Syntax for returning a dynamic object:**
+   
+   To return a dynamic object, we can apply two approach
+   
+   **Syntax 1 (Similar to the dynamic array method):**
+    
+
+    class MyClass
+    {
+    public:
+        int val_1;
+        int val_2;
+        MyClass(int val_1, int val_2)
+        {
+            this->val_1 = val_1;
+            this->val_2 = val_2;
+        }
+    };
+
+    MyClass *myFun()
+    {
+        MyClass *dynamicObj = new MyClass(50, 100);
+        return dynamicObj;
+    }
+
+    int main()
+    {
+        MyClass *obj = myFun();
+        cout << obj->val_1 << " " << obj->val_2;
+        return 0;
+    }
+    
+   **Syntax 2:**
+    
+      class MyClass
+      {
+      public:
+          int val_1;
+          int val_2;
+          MyClass(int val_1, int val_2)
+          {
+              this->val_1 = val_1;
+              this->val_2 = val_2;
+          }
+      };
+
+      MyClass myFun()
+      {
+          MyClass *dynamicObj = new MyClass(50, 100);
+          return *dynamicObj;
+      }
+
+      int main()
+      {
+          MyClass obj = myFun();
+          cout << obj.val_1 << " " << obj.val_2;
+          return 0;
+      }
+
+
+   
+   
+    
+   **To Delete an array:**
+    
     delete[] dynamicArray;
     
   </blockquote></details>
+    
+    
 
   
 </blockquote></details>
