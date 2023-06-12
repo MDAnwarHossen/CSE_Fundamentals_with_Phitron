@@ -262,6 +262,13 @@
     <li><strong>s.empty()</strong> -> return true/false if the string is empty.</li>
     <li><strong>s.resize(new_size, fill_char)</strong> -> change the size of the string.</li>
   </ul>
+<h5>Element access:</h5>
+  <ul>
+    <li><strong>S[i]</strong> -> access the ith index of the string.</li>
+    <li><strong>s.at(i)</strong> -> access the ith index of the string.</li>
+    <li><strong>s.back()</strong> -> access the last element of the string.</li>
+    <li><strong>s.front()</strong> -> access the first element of the string.</li>
+  </ul>
 </details>
 <details>
 <summary>
