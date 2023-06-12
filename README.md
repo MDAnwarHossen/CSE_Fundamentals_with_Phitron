@@ -247,6 +247,29 @@
 <img src="https://i.ibb.co/9T2d7Rq/Capture.png" alt="Sort picture" style="width:500px;height:142px;">
 <p><strong>Time complexity: </strong> Time complexity of <strong>sort()</strong> function is <strong>O(N log N)</strong>, which is better than <strong>selection sort</strong></p>
 </details>
+<details>
+<summary>
+  
+## 5-1 String in C++
+</summary>
+<p>Source link: https://cplusplus.com/reference/string/string/</p>
+<h5>Capacity:</h5>
+  <ul>
+    <li><strong>s.size()</strong> -> returns the size of the string.</li>
+    <li><strong>s.max_size()</strong> -> returns the maximum size that string can hold.</li>
+    <li><strong>s.capacity()</strong> -> returns current available capacity of the string.</li>
+    <li><strong>s.clear()</strong> -> clear the string.</li>
+    <li><strong>s.empty()</strong> -> return true/false if the string is empty.</li>
+    <li><strong>s.resize(new_size, fill_char)</strong> -> change the size of the string.</li>
+  </ul>
+</details>
+<details>
+<summary>
+  
+## Header
+</summary>
+<p>
+</details>
   
   
 <details>
