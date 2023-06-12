@@ -269,6 +269,22 @@
     <li><strong>s.back()</strong> -> access the last element of the string.</li>
     <li><strong>s.front()</strong> -> access the first element of the string.</li>
   </ul>
+ <h5>Modifiers:</h5>
+  <ul>
+    <li><strong>s+=</strong> -> append another string.</li>
+    <li><strong>s.append("Hello")</strong> -> to append different strings to s. Each call to append() adds the specified string to the end of s</li>
+    <li><strong>s.push_back("H")</strong> -> add character to the last of the string.</li>
+    <li><strong>s.pop_back()</strong> -> remove the last character of the string.</li>
+    <li><strong>s=</strong> -> assign string.</li>
+    <li><strong>s.assign("Goodbye")</strong> -> assign string.</li>
+    <li><strong>s.erase(5)</strong> -> erase characters from the string.</li>
+    <li><strong>s.replace(6, 5, "C++")</strong> -> replace a portion of the string.</li>
+    <li><strong>s.insert(6, "C++ ")</strong> -> insert a portion to a specific position.</li>
+  </ul>
+  <h5>Iterators:</h5>
+  <ul>
+    <li><strong>s.begin()</strong> -> pointer to the first element.</li>
+    <li><strong>s.end()</strong> -> pointer to the next element after the last element of the string.</li>
 </details>
 <details>
 <summary>
