@@ -13,7 +13,7 @@
 <p>Since a format specifier does not exist in C++, how can we set precision in a float value? For instance, If we want to shrink 2.568741 to 2.57, how can we do it?</p>
 <h5>The method is as follows-</h5>
   
-  ```
+  ```c++
   float a;
   cin >> a;
   cout << fixed << setprecision(2) << a;
@@ -27,13 +27,13 @@
 <p>In C++, the min() and max() functions can be used to find the minimum and maximum values between two or more variables. Here are two example usages:</p>
 <h5>Between Two Numbers:</h5>
   
-  ```
+  ```c++
   int minimumValue = min(a, b);
   int maximumValue = max(a, b);
   ```
 <h5>Among More Than Two Numbers:</h5>
   
-  ```
+  ```c++
   int minimumValue = min({a, b, c});
   int maximumValue = max({a, b, c});
   ```
@@ -47,7 +47,7 @@
 <p>The swap() function in C++ is used to exchange the values of two variables.</p>
 <h5>Syntax-</h5>
   
-  ```
+  ```c++
   swap(a, b);
   ```
 </details>
@@ -59,13 +59,13 @@
 <p>cin object reads input until the next whitespace character (e.g., space, tab, or newline). To read an entire line of input, we can use getline()</p>
 <h5>Syntax 1-</h5>
   
-  ```
+  ```c++
   char S[100];
   cin.getline(S, 100);
   ```
 <h5>Syntax 2-</h5>
   
-  ```
+  ```c++
   string S;
   getline(cin, S);
   ```
@@ -78,12 +78,12 @@
 </summary>
 <p>To create a dynamic array in C++, we can use pointers and allocate memory on the heap using the new operator. Here's an example of creating a dynamic array:</p>
   
-  ```
+  ```c++
   int* dynamicArray = new int[size];
   ```
 <h5>To Delete an array:</h5>
   
-  ```
+  ```c++
   delete[] dynamicArray;
   ```
 </details>
@@ -96,7 +96,7 @@
 <p>If we want to return an array from a function, we must have to make a dynamic array. Moreover, the return type of the function will be a pointer (*).</p>
 <h5>Syntax below:</h5>
   
-  ```
+  ```c++
   int *dynamicArrayFun()
     {
       int *ary = new int[5];
@@ -113,7 +113,7 @@
   ```
 <h5>To Delete an array:</h5>
   
-  ```
+  ```c++
   delete[] myArray;
   ```
 </details>
@@ -125,7 +125,7 @@
 <p>Unlike returning an array, we don't need to make it dynamic. We can return an object from a function, even if it is a static object.</p>
 <h3>Syntax for returning a static object:</h3>
   
-  ```
+  ```c++
   class MyClass
     {
     public:
@@ -153,7 +153,7 @@
 <p>To return a dynamic object, we can apply two approach</p>
 <h5>Syntax 1 (Similar to the dynamic array method):</h5>
   
-  ```
+  ```c++
  class MyClass
   {
    public:
@@ -181,7 +181,7 @@
   ```
 <h5>Syntax 2:</h5>
   
-  ```
+  ```c++
   class MyClass
   {
   public:
@@ -210,6 +210,45 @@
   
 </details>
 
+<details>
+<summary>
+  
+## 3-7 Access Values of Dynamic Object
+</summary>
+<p>To access the values of a dynamic object in C++, you need to use the arrow operator (->) with the pointer to the object.</p>
+<h5>Syntax:</h5>
+  
+  ```c++
+  MyClass* dynamicObj = new MyClass(50, 100);
+  cout << dynamicObj->val_1 << " " << dynamicObj->val_2;
+  ```
+<p>There is an alternative approach, first we can dereferenced using the * operator to obtain the underlying object. Then, we can use the dot operator (.) to access the members of the object.</p>
+<h5>Syntax:</h5>
+  
+  ```c++
+  MyClass* dynamicObj = new MyClass(50, 100);
+  cout << (*dynamicObj).val_1 << " " << (*dynamicObj).val_2;
+  ```
+</details>
+<details>
+<summary>
+  
+## 3-8 sort() Function in C++
+
+</summary>
+<h5>Basic Syntax:</h5>
+  
+  ```c++
+  sort(a, a + n);
+  ```
+<p>The sort() function in C++ is used to sort elements in a given range. It has three parts - <strong>start_iterator</strong>, <strong>end_iterator</strong> and <strong>comparison_operator</strong>. Comparison_operator is an optional parameter to specify the custom comparison function or predicate. If not provided, the default < operator is used for sorting in ascending order.</p>
+<p>Bear in mind, When we call <strong>sort(a, a+n)</strong>, the range to be sorted includes the elements from <strong>a</strong> (inclusive) up to <strong>a+n</strong> (exclusive). In other words, the <strong>sort()</strong> function sorts the elements before the end iterator <strong>a + n</strong>. If we call <strong>sort(a, a+5)</strong>, it will sort before <strong>a+5</strong></p>
+<h5>Here is a picture for better understanding</h5>
+<img src="https://i.ibb.co/9T2d7Rq/Capture.png" alt="Sort picture" style="width:500px;height:142px;">
+<p><strong>Time complexity: </strong> Time complexity of <strong>sort()</strong> function is <strong>O(N log N)</strong>, which is better than <strong>selection sort</strong></p>
+</details>
+  
+  
 <details>
 <summary>
   
