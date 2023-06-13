@@ -69,7 +69,30 @@
   string S;
   getline(cin, S);
   ```
-<p>It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If you need to process the newline character, you can use <strong>cin.ignore()</strong> or handle it separately.</p>
+<p>It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If we need to process the newline character, we can use <strong>cin.ignore()</strong> or handle it separately.</p>
+<p>Here is a problem we often face</p>
+<img src="https://i.ibb.co/wpmN14J/Capture.png" alt="problem picture" style="width:400px;height:321px;">
+<p>The reason we're not getting the desired value for string <strong>B</strong> is that when we use the <strong>getline(cin, B)</strong> function after reading an integer <strong>A</strong> using <strong>cin >> A</strong>, there is a newline character <strong>(\n)</strong> left in the input stream. The <strong>getline()</strong> function reads until it encounters a newline character, so it immediately reads that leftover newline character and assigns an empty string to <strong>B</strong>.</p>
+<p>To fix this issue, we can add an extra <strong>cin.ignore()</strong> statement before the <strong>getline()</strong> function to discard the newline character. Here's the modified code:</p>
+  
+  ```c++
+  #include <iostream>
+  using namespace std;
+
+  int main() {
+    int A;
+    cin >> A;
+    cout << A << endl;
+
+    cin.ignore(); // Add this line to discard the newline character
+
+    string B;
+    getline(cin, B);
+    cout << B << endl;
+
+    return 0;
+   }
+  ```
 </details>
 <details>
 <summary>
@@ -215,7 +238,7 @@
   
 ## 3-7 Access Values of Dynamic Object
 </summary>
-<p>To access the values of a dynamic object in C++, you need to use the arrow operator (->) with the pointer to the object.</p>
+<p>To access the values of a dynamic object in C++, we need to use the arrow operator (->) with the pointer to the object.</p>
 <h5>Syntax:</h5>
   
   ```c++
