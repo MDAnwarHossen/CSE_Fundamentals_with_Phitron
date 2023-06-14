@@ -259,10 +259,15 @@
 ## 3-8 sort() Function in C++
 
 </summary>
-<h5>Basic Syntax:</h5>
+<h5>Sorting Syntax for Array:</h5>
   
   ```c++
   sort(a, a + n);
+  ```
+<h5>Sorting Syntax for String:</h5>
+  
+  ```c++
+  sort(s.begin(), s.end());
   ```
 <p>The sort() function in C++ is used to sort elements in a given range. It has three parts - <strong>start_iterator</strong>, <strong>end_iterator</strong> and <strong>comparison_operator</strong>. Comparison_operator is an optional parameter to specify the custom comparison function or predicate. If not provided, the default < operator is used for sorting in ascending order.</p>
 <p>Bear in mind, When we call <strong>sort(a, a+n)</strong>, the range to be sorted includes the elements from <strong>a</strong> (inclusive) up to <strong>a+n</strong> (exclusive). In other words, the <strong>sort()</strong> function sorts the elements before the end iterator <strong>a + n</strong>. If we call <strong>sort(a, a+5)</strong>, it will sort before <strong>a+5</strong></p>
@@ -338,6 +343,29 @@
     string result = ss.str();
     cout << result << endl;
   ```
+</details>
+<details>
+<summary>
+  
+## 6-3 Range Based For Loop in String
+</summary>
+<p>The range-based for loop is a convenient loop construct that simplifies iterating over elements in a container or range.</p>
+<h5>Syntax:</h5>
+  
+  ```c++
+    string myString = "Hello world";
+    for (char c : myString)
+    {
+        cout << c << " ";
+    }
+  ```
+</details>
+<details>
+<summary>
+  
+## 6-4 Reverse Word Printing using Stringstream
+</summary>
+<p>অনেক informative একটা ভিডিও I এটা নিয়ে পরে কাজ করবো I pass by value and pass by reference নিয়ে আরেকটা সেকশন করতে হবে I যেটা C তে মডিউল ১৫ তে দেখাইছিলো </p>
 </details>
   
   
