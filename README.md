@@ -312,9 +312,32 @@
 <details>
 <summary>
   
-## Header
+## 5-8 Stringstream in C++
 </summary>
-<p>
+<p>Stringstream provides a convenient way to extract values from strings or concatenate values into a string.</p>
+<h5>To extract values from strings:</h5>
+  
+  ```c++
+    string sentence = "Hello world!";
+    stringstream ss(sentence); // Create a stringstream object with the sentence string
+
+    string word;
+    while (ss >> word)
+    {
+        cout << word << endl; // Output each extracted word
+    }
+  ```
+<h5>To concatenate values into a string:</h5>
+  
+  ```c++
+    string word_1 = "Hello";
+    string word_2 = "world!";
+
+    stringstream ss;
+    ss << word_1 << " " << word_2;
+    string result = ss.str();
+    cout << result << endl;
+  ```
 </details>
   
   
