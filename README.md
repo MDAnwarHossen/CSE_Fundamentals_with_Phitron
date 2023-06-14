@@ -367,6 +367,32 @@
 </summary>
 <p>অনেক informative একটা ভিডিও I এটা নিয়ে পরে কাজ করবো I pass by value and pass by reference নিয়ে আরেকটা সেকশন করতে হবে I যেটা C তে মডিউল ১৫ তে দেখাইছিলো </p>
 </details>
+<details>
+<summary>
+  
+## 6-6 This Keyword in C++
+</summary>
+<p>The keyword "this" is a pointer that refers to the current object instance within a member function of a class. It is an implicit parameter that allows us to access the object's members and distinguish them from local variables or parameters with the same name.</p>
+
+```c++
+   class MyClass
+   {
+    public:
+      string name;
+      int age;
+      MyClass(string name, int age)
+      {
+        this->name = name;
+        this->age = age;
+      }
+};
+int main()
+{
+    MyClass myObj("Rohim", 15);
+    return 0;
+}
+  ```
+</details>
   
   
 <details>
