@@ -393,6 +393,53 @@ int main()
 }
   ```
 </details>
+<details>
+<summary>
+  
+## 7-5 Sort Array of Objects using sort() Function
+</summary>
+<p>The sort() function allows us to provide a custom comparison function to define the sorting order. The comparison function should be a binary predicate that takes two arguments and returns true if the first argument should be placed before the second argument in the sorted sequence.</p>
+<h5>Example:</h5>
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+class MyClass
+{
+public:
+    string name;
+    int age;
+    MyClass(string name, int age)
+    {
+        this->name = name;
+        this->age = age;
+    }
+};
+bool comparison_function(MyClass a, MyClass b)
+{
+    // Sorting in descending order
+    return a.age > b.age;
+}
+int main()
+{
+    MyClass person_1("Rohim", 15);
+    MyClass person_2("Korim", 25);
+    MyClass person_3("Hafiz", 50);
+    MyClass person_4("Tabeeb", 12);
+    vector<MyClass> ary = {person_1, person_2, person_3, person_4};
+
+    sort(ary.begin(), ary.end(), comparison_function);
+
+    for (MyClass person : ary)
+    {
+        cout << person.name << " " << person.age << endl;
+    }
+    return 0;
+}
+```
+</details>
+
   
   
 <details>
