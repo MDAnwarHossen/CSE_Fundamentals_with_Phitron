@@ -604,30 +604,83 @@ int main()
     <td>O(N) if sizes are different, O(1) otherwise</td>
   </tr>
   <tr>
-    <td>v.max_size()</td>
-    <td>Returns the maximum size that the vector can hold</td>
+    <td>v.push_back()</td>
+    <td>Add an element to the end</td>
     <td>O(1)</td>
   </tr>
   <tr>
-    <td>v.capacity()</td>
-    <td>Returns the current available capacity of the vector</td>
+    <td>v.pop_back()</td>
+    <td>Remove the last element</td>
     <td>O(1)</td>
   </tr>
   <tr>
-    <td>v.clear()</td>
-    <td>Clears the vector elements. Do not delete the memory, only clear the value.</td>
+    <td>v.insert()</td>
+    <td>Insert elements at a specific position</td>
+    <td>O(N+K); where K is the number of elements to be inserted</td>
+  </tr>
+  <tr>
+    <td>v.erase()</td>
+    <td>Delete elements from a specific position</td>
+    <td>O(N+K); where K is the number of elements to be deleted</td>
+  </tr>
+  <tr>
+    <td>replace(v.begin(),v.end(),value,replace_value)</td>
+    <td>Replace all the value with replace_value. Not under a vector</td>
     <td>O(N)</td>
   </tr>
   <tr>
-    <td>v.empty()</td>
-    <td>Return true/false if the vector is empty or not.</td>
-    <td>O(1)</td>
+    <td>find(v.begin(),v.end(),V)</td>
+    <td>Find the value V. Not under a vector</td>
+    <td>O(N)</td>
+  </tr>
+</table>
+<h4>4. Element access</h4>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Details</th>
+    <th>Time Complexity</th>
   </tr>
   <tr>
-    <td>v.resize()</td>
-    <td>Change the size of the vector</td>
-    <td>O(K); where K is the difference between new size and current size</td>
+    <td>v[i]</td>
+    <td>Access the ith element.</td>
+    <td>O(1)</td>
   </tr>
+ <tr>
+    <td>v.at(i)</td>
+    <td>Access the ith element.</td>
+    <td>O(1)</td>
+  </tr>
+   <tr>
+    <td>v.back()</td>
+    <td>Access the last element</td>
+    <td>O(1)</td>
+  </tr>
+   <tr>
+    <td>v.front()</td>
+    <td>Access the first element</td>
+    <td>O(1)</td>
+  </tr>
+</table>
+<h4>5. Iterators</h4>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Details</th>
+    <th>Time Complexity</th>
+  </tr>
+  <tr>
+    <td>v.begin()</td>
+    <td>Pointer to the first element.</td>
+    <td>O(1)</td>
+  </tr>
+ <tr>
+    <td>v.end()</td>
+    <td>Pointer to the last element</td>
+    <td>O(1)</td>
+  </tr>
+   
+   
 </table>
 
 
