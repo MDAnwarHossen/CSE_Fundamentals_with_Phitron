@@ -505,6 +505,152 @@ int main()
   </tr>
 </table>
 </details>
+
+<details>
+<summary>
+  
+## 1-8 What is Space Complexity
+</summary>
+<p>The space Complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input. Auxiliary Space is the extra space or temporary space used by an algorithm.</p>
+
+</details>
+
+<details>
+<summary>
+  
+## STL Vector
+</summary>
+<h4>1. Constructor</h4>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Details</th>
+    <th>Time Complexity</th>
+  </tr>
+  <tr>
+    <td>vector<'type'>v</td>
+    <td>Construct a vector with 0 elements</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>vector<'type'>v(N)</td>
+    <td>Construct a vector with N elements and the value will be garbage</td>
+    <td>O(N)</td>
+  </tr>
+  <tr>
+    <td>vector<'type'>v(N,V)</td>
+    <td>Construct a vector with N elements and the value will be V</td>
+    <td>O(N)</td>
+  </tr>
+  <tr>
+    <td>vector<'type'>v(v2)</td>
+    <td>Construct a vector by copying another vector v2</td>
+    <td>O(N)</td>
+  </tr>
+  <tr>
+    <td>vector<'type'>v(A,A+N)</td>
+    <td>Construct a vector by copying all elements from an array A of size N</td>
+    <td>O(N)</td>
+  </tr>
+</table>
+<h4>2. Capacity</h4>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Details</th>
+    <th>Time Complexity</th>
+  </tr>
+  <tr>
+    <td>v.size()</td>
+    <td>Returns the size of the vector</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.max_size()</td>
+    <td>Returns the maximum size that the vector can hold</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.capacity()</td>
+    <td>Returns the current available capacity of the vector</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.clear()</td>
+    <td>Clears the vector elements. Do not delete the memory, only clear the value.</td>
+    <td>O(N)</td>
+  </tr>
+  <tr>
+    <td>v.empty()</td>
+    <td>Return true/false if the vector is empty or not.</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.resize()</td>
+    <td>Change the size of the vector</td>
+    <td>O(K); where K is the difference between new size and current size</td>
+  </tr>
+</table>
+<h4>3. Modifiers</h4>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Details</th>
+    <th>Time Complexity</th>
+  </tr>
+  <tr>
+    <td>v= or v.assign()</td>
+    <td>Assign another vector</td>
+    <td>O(N) if sizes are different, O(1) otherwise</td>
+  </tr>
+  <tr>
+    <td>v.max_size()</td>
+    <td>Returns the maximum size that the vector can hold</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.capacity()</td>
+    <td>Returns the current available capacity of the vector</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.clear()</td>
+    <td>Clears the vector elements. Do not delete the memory, only clear the value.</td>
+    <td>O(N)</td>
+  </tr>
+  <tr>
+    <td>v.empty()</td>
+    <td>Return true/false if the vector is empty or not.</td>
+    <td>O(1)</td>
+  </tr>
+  <tr>
+    <td>v.resize()</td>
+    <td>Change the size of the vector</td>
+    <td>O(K); where K is the difference between new size and current size</td>
+  </tr>
+</table>
+
+
+</details>
+
+
+
+
+  
+</blockquote></details>
+
+
+
+
+
+<details>
+<summary>
+  
+## Title
+</summary>
+<p>Paragraph</p>
+
+</details>
   
 </blockquote></details>
   
