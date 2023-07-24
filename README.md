@@ -463,9 +463,47 @@ int main()
 <details>
 <summary>
   
-## Demo
+## 1-1 What is Time Complexity
 </summary>
-<p>Hello world</p>
+<p>Time complexity is defined as the amount of time taken by an algorithm to run. It measures the time taken to execute each statement of code in an algorithm</p>
+<h5>Input limit of Time Complexity</h5>
+<table>
+  <tr>
+    <th>Big O notation</th>
+    <th>Input size</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>O(1)</td>
+    <td></td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>O(log N)</td>
+     <td>10<sup>18</sup></td>
+     <td>Binary search, binary heaps, merge sort, and quicksort</td>
+  </tr>
+  <tr>
+    <td>O($\sqrt{N}$)</td>
+     <td>10<sup>14</sup></td>
+    <td>Checking perfect square, Checking prime numbe</td>
+  </tr>
+  <tr>
+    <td>O(N)</td>
+     <td>10<sup>7</sup></td>
+    <td>Arrays, Linked Lists, Linear Search, Bubble Sort, Selection Sort, Counting Sort</td>
+  </tr>
+  <tr>
+    <td>O(N log(N))</td>
+     <td>10<sup>5</sup></td>
+    <td>Merge Sort, QuickSort, Heap Sort</td>
+  </tr>
+  <tr>
+    <td>O(N*N)</td>
+     <td>10<sup>3</sup></td>
+    <td>Bubble Sort, Selection Sort, Insertion Sort</td>
+  </tr>
+</table>
 </details>
   
 </blockquote></details>
