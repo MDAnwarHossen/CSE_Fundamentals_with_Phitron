@@ -713,17 +713,18 @@ A[3] - A[1-1];
 <h5>What is Binary Search Algorithm?</h5>
 <p>Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N). </p>
 
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/binary-search.jpg">
 <h5>In this algorithm</h5>
-*Divide the search space into two halves by finding the middle index “mid”.
-*Compare the middle element of the search space with the key.
-*If the key is found at middle element, the process is terminated.
-*If the key is not found at middle element, choose which half will be used as the next search space.
+
+    *Divide the search space into two halves by finding the middle index “mid”.
+    *Compare the middle element of the search space with the key.
+    *If the key is found at middle element, the process is terminated.
+    *If the key is not found at middle element, choose which half will be used as the next search space.
 
     *If the key is smaller than the middle element, then the left side is used for next search.
     *If the key is larger than the middle element, then the right side is used for next search.
 
-\*This process is continued until the key is found or the total search space is exhausted.
+    *This process is continued until the key is found or the total search space is exhausted.
 
 </details>
 
