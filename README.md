@@ -707,7 +707,6 @@ int main()
 <p>It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If we need to process the newline character, we can use <strong>cin.ignore()</strong> or handle it separately.</p>
 <p>Here is a problem we often face</p>
 
-<img src="https://i.ibb.co/9T2d7Rq/Capture.png" alt="Sort picture" style="width:500px;height:142px;"/>
 ![Image 1](./images/prefix_Sum.jpg)
 
 <p>The reason we're not getting the desired value for string <strong>B</strong> is that when we use the <strong>getline(cin, B)</strong> function after reading an integer <strong>A</strong> using <strong>cin >> A</strong>, there is a newline character <strong>(\n)</strong> left in the input stream. The <strong>getline()</strong> function reads until it encounters a newline character, so it immediately reads that leftover newline character and assigns an empty string to <strong>B</strong>.</p>
