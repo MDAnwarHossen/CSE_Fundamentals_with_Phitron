@@ -705,6 +705,32 @@ A[3] - A[1-1];
 <h5>Corner case:</h5>
 <p>If we want to obtain the summation from any index to the 0 index, we don't need to subtract A[0-1] because we can't go beyond 0.</p>
 </details>
+<details>
+<summary>
+  
+## 3-5 Idea of Binary Search Algorithm
+</summary>
+<h5>What is Binary Search Algorithm?</h5>
+<p>Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N). </p>
+
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
+<h5>In this algorithm</h5>
+<p>Divide the search space into two halves by finding the middle index “mid”. </p>
+<p>Compare the middle element of the search space with the key.</p>
+<p>If the key is found at middle element, the process is terminated.</p>
+<p>If the key is not found at middle element, choose which half will be used as the next search space.</p>
+    <p>If the key is smaller than the middle element, then the left side is used for next search.</p>
+    <p>If the key is larger than the middle element, then the right side is used for next search.</p>
+<p>This process is continued until the key is found or the total search space is exhausted.
+</p>
+
+```c++
+A[3] - A[1-1];
+```
+
+<h5>Corner case:</h5>
+<p>If we want to obtain the summation from any index to the 0 index, we don't need to subtract A[0-1] because we can't go beyond 0.</p>
+</details>
 
 </blockquote></details>
 </blockquote></details>
