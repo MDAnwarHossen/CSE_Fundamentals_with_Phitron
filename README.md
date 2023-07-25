@@ -695,7 +695,15 @@ int main()
 <p>Prefix Sum, also known as Cumulative Sum, is a technique used in computer science and mathematics to efficiently calculate the running sum of elements in an array or sequence. The idea behind prefix sum is to precompute and store the cumulative sum of elements up to each index in the array.</p>
 
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
-<p>The idea is that, While traversing an array, update the element by adding it with its previous element.</p>
+<p>The idea is that, While traversing an array, update the element by adding it with its previous element. As a result, we would be able to get a summation from any index to any index.</p>
+<p>For example, if we want to obtain the summation from index 1 to index 3 of the above picture, we would be able to get it easily.</p>
+
+...c++
+A[3] - A[1-1];
+...
+
+<h5>Corner case:</h5>
+<p>If we want to obtain the summation from any index to the 0 index, we don't need to subtract A[0-1] because we can't go beyond 0.</p>
 </details>
 
 </blockquote></details>
