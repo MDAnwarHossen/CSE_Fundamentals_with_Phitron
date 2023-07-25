@@ -715,21 +715,18 @@ A[3] - A[1-1];
 
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
 <h5>In this algorithm</h5>
-<p>Divide the search space into two halves by finding the middle index “mid”. </p>
-<p>Compare the middle element of the search space with the key.</p>
-<p>If the key is found at middle element, the process is terminated.</p>
-<p>If the key is not found at middle element, choose which half will be used as the next search space.</p>
-    <p>If the key is smaller than the middle element, then the left side is used for next search.</p>
-    <p>If the key is larger than the middle element, then the right side is used for next search.</p>
-<p>This process is continued until the key is found or the total search space is exhausted.
+*<p>Divide the search space into two halves by finding the middle index “mid”. </p>
+*<p>Compare the middle element of the search space with the key.</p>
+*<p>If the key is found at middle element, the process is terminated.</p>
+*<p>If the key is not found at middle element, choose which half will be used as the next search space.</p>
+
+    *If the key is smaller than the middle element, then the left side is used for next search.
+    *If the key is larger than the middle element, then the right side is used for next search.
+
+\*<p>This process is continued until the key is found or the total search space is exhausted.
+
 </p>
 
-```c++
-A[3] - A[1-1];
-```
-
-<h5>Corner case:</h5>
-<p>If we want to obtain the summation from any index to the 0 index, we don't need to subtract A[0-1] because we can't go beyond 0.</p>
 </details>
 
 </blockquote></details>
