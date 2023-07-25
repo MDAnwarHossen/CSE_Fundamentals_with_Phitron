@@ -689,55 +689,18 @@ int main()
 <details>
 <summary>
   
-## 1-8 String Input and Output in C++
+## 3-2 Idea of Prefix Sum Array
 </summary>
-<p>cin object reads input until the next whitespace character (e.g., space, tab, or newline). To read an entire line of input, we can use getline()</p>
-<h5>Syntax 1-</h5>
-  
-  ```c++
-  char S[100];
-  cin.getline(S, 100);
-  ```
-<h5>Syntax 2-</h5>
-  
-  ```c++
-  string S;
-  getline(cin, S);
-  ```
-<p>It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If we need to process the newline character, we can use <strong>cin.ignore()</strong> or handle it separately.</p>
-<p>Here is a problem we often face</p>
+<h5>What is Prefix Sum</h5>
+<p>Prefix Sum, also known as Cumulative Sum, is a technique used in computer science and mathematics to efficiently calculate the running sum of elements in an array or sequence. The idea behind prefix sum is to precompute and store the cumulative sum of elements up to each index in the array.</p>
 
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
-
-<p>The reason we're not getting the desired value for string <strong>B</strong> is that when we use the <strong>getline(cin, B)</strong> function after reading an integer <strong>A</strong> using <strong>cin >> A</strong>, there is a newline character <strong>(\n)</strong> left in the input stream. The <strong>getline()</strong> function reads until it encounters a newline character, so it immediately reads that leftover newline character and assigns an empty string to <strong>B</strong>.</p>
-<p>To fix this issue, we can add an extra <strong>cin.ignore()</strong> statement before the <strong>getline()</strong> function to discard the newline character. Here's the modified code:</p>
-  
-  ```c++
-  #include <iostream>
-  using namespace std;
-
-int main() {
-int A;
-cin >> A;
-cout << A << endl;
-
-    cin.ignore(); // Add this line to discard the newline character
-
-    string B;
-    getline(cin, B);
-    cout << B << endl;
-
-    return 0;
-
-}
-
-```
+<p>The idea is that, While traversing an array, update the element by adding it with its previous element.</p>
 </details>
 
 </blockquote></details>
 </blockquote></details>
 
-
-
+```
 
 ```
