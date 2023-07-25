@@ -1,4 +1,5 @@
 # CSE_Fundamentals_with_Phitron
+
 <details>
 <summary>
   
@@ -79,10 +80,10 @@
   #include <iostream>
   using namespace std;
 
-  int main() {
-    int A;
-    cin >> A;
-    cout << A << endl;
+int main() {
+int A;
+cin >> A;
+cout << A << endl;
 
     cin.ignore(); // Add this line to discard the newline character
 
@@ -91,19 +92,22 @@
     cout << B << endl;
 
     return 0;
-   }
-  ```
+
+}
+
+````
 </details>
 <details>
 <summary>
-  
+
 ## 2-3 Create Dynamic Array
 </summary>
 <p>To create a dynamic array in C++, we can use pointers and allocate memory on the heap using the new operator. Here's an example of creating a dynamic array:</p>
-  
-  ```c++
-  int* dynamicArray = new int[size];
-  ```
+
+```c++
+int* dynamicArray = new int[size];
+````
+
 <h5>To Delete an array:</h5>
   
   ```c++
@@ -189,48 +193,49 @@
      }
    };
 
- MyClass *myFun()
-  {
-     MyClass *dynamicObj = new MyClass(50, 100);
-     return dynamicObj;
-    }
+MyClass *myFun()
+{
+MyClass *dynamicObj = new MyClass(50, 100);
+return dynamicObj;
+}
 
- int main()
-  {
-      MyClass *obj = myFun();
-      cout << obj->val_1 << " " << obj->val_2;
-      return 0;
-   }
-  ```
+int main()
+{
+MyClass \*obj = myFun();
+cout << obj->val_1 << " " << obj->val_2;
+return 0;
+}
+
+````
 <h5>Syntax 2:</h5>
-  
-  ```c++
-  class MyClass
-  {
-  public:
-      int val_1;
-      int val_2;
-      MyClass(int val_1, int val_2)
-      {
-          this->val_1 = val_1;
-          this->val_2 = val_2;
-      }
-  };
 
-  MyClass myFun()
-  {
-      MyClass *dynamicObj = new MyClass(50, 100);
-      return *dynamicObj;
-  }
+```c++
+class MyClass
+{
+public:
+    int val_1;
+    int val_2;
+    MyClass(int val_1, int val_2)
+    {
+        this->val_1 = val_1;
+        this->val_2 = val_2;
+    }
+};
 
-  int main()
-  {
-      MyClass obj = myFun();
-      cout << obj.val_1 << " " << obj.val_2;
-      return 0;
-  }
-  ```
-  
+MyClass myFun()
+{
+    MyClass *dynamicObj = new MyClass(50, 100);
+    return *dynamicObj;
+}
+
+int main()
+{
+    MyClass obj = myFun();
+    cout << obj.val_1 << " " << obj.val_2;
+    return 0;
+}
+````
+
 </details>
 
 <details>
@@ -331,18 +336,20 @@
     {
         cout << word << endl; // Output each extracted word
     }
-  ```
-<h5>To concatenate values into a string:</h5>
-  
-  ```c++
-    string word_1 = "Hello";
-    string word_2 = "world!";
 
-    stringstream ss;
-    ss << word_1 << " " << word_2;
-    string result = ss.str();
-    cout << result << endl;
-  ```
+````
+<h5>To concatenate values into a string:</h5>
+
+```c++
+  string word_1 = "Hello";
+  string word_2 = "world!";
+
+  stringstream ss;
+  ss << word_1 << " " << word_2;
+  string result = ss.str();
+  cout << result << endl;
+````
+
 </details>
 <details>
 <summary>
@@ -391,7 +398,8 @@ int main()
     MyClass myObj("Rohim", 15);
     return 0;
 }
-  ```
+```
+
 </details>
 <details>
 <summary>
@@ -438,10 +446,9 @@ int main()
     return 0;
 }
 ```
+
 </details>
 
-  
-  
 <details>
 <summary>
   
@@ -451,8 +458,6 @@ int main()
 </details>
   
 </blockquote></details>
-
-
 
 <details>
 <summary>
@@ -702,13 +707,8 @@ int main()
 <p>It's important to note that getline() reads input until a newline character is encountered, but it discards the newline character itself. If we need to process the newline character, we can use <strong>cin.ignore()</strong> or handle it separately.</p>
 <p>Here is a problem we often face</p>
 
-
-
 <img src="https://i.ibb.co/9T2d7Rq/Capture.png" alt="Sort picture" style="width:500px;height:142px;"/>
-![Image 1](./site_img.jpg)
-
-
-
+![Image 1](./images/prefix_Sum.jpg)
 
 <p>The reason we're not getting the desired value for string <strong>B</strong> is that when we use the <strong>getline(cin, B)</strong> function after reading an integer <strong>A</strong> using <strong>cin >> A</strong>, there is a newline character <strong>(\n)</strong> left in the input stream. The <strong>getline()</strong> function reads until it encounters a newline character, so it immediately reads that leftover newline character and assigns an empty string to <strong>B</strong>.</p>
 <p>To fix this issue, we can add an extra <strong>cin.ignore()</strong> statement before the <strong>getline()</strong> function to discard the newline character. Here's the modified code:</p>
@@ -717,10 +717,10 @@ int main()
   #include <iostream>
   using namespace std;
 
-  int main() {
-    int A;
-    cin >> A;
-    cout << A << endl;
+int main() {
+int A;
+cin >> A;
+cout << A << endl;
 
     cin.ignore(); // Add this line to discard the newline character
 
@@ -729,13 +729,16 @@ int main()
     cout << B << endl;
 
     return 0;
-   }
-  ```
+
+}
+
+```
 </details>
 
 </blockquote></details>
 </blockquote></details>
 
-  
 
 
+
+```
