@@ -698,9 +698,9 @@ int main()
 <p>The idea is that, While traversing an array, update the element by adding it with its previous element. As a result, we would be able to get a summation from any index to any index.</p>
 <p>For example, if we want to obtain the summation from index 1 to index 3 of the above picture, we would be able to get it easily.</p>
 
-...c++
+```c++
 A[3] - A[1-1];
-...
+```
 
 <h5>Corner case:</h5>
 <p>If we want to obtain the summation from any index to the 0 index, we don't need to subtract A[0-1] because we can't go beyond 0.</p>
