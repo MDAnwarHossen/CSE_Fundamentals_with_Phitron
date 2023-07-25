@@ -687,8 +687,10 @@ int main()
 ## 3-2 Idea of Prefix Sum Array
 </summary>
 <h5>What is Sum Array</h5>h5>
-<p>Prefix Sum, also known as Cumulative Sum, is a technique used in computer science and mathematics to efficiently calculate the running sum of elements in an array or sequence. The idea behind prefix sum is to precompute and store the cumulative sum of elements up to each index in the array. </p>
-<img src="https://i.ibb.co/4Zk6jdd/prefix-Sum.jpg" alt="Prefix Sum" style="width:400px;height:321px;">
+<p>Prefix Sum, also known as Cumulative Sum, is a technique used in computer science and mathematics to efficiently calculate the running sum of elements in an array or sequence. The idea behind prefix sum is to precompute and store the cumulative sum of elements up to each index in the array.</p>
+
+<img src="https://i.ibb.co/9T2d7Rq/Capture.png" alt="Sort picture" style="width:500px;height:142px;">
+<img src="https://i.ibb.co/9T2d7Rq/Capture.png" alt="Sort picture" style="width:500px;height:142px;">
 
 </details>
 
