@@ -852,7 +852,7 @@ A[3] - A[1-1];
   <td>O(1)</td>
 </tr>
 <tr>
-  <td>myList.insert(pos, val) <span style="color:`#0969DA`">*Check note below</span></td>
+  <td>myList.insert(pos, val) <span style="color:#0969DA">*Check note below</span></td>
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
