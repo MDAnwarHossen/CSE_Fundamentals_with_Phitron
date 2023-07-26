@@ -870,7 +870,7 @@ A[3] - A[1-1];
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
 <tr>
-  <td>myList.erase(iterator_pos, iterator_pos)<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/blue.png"> [Check code here](https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/erase.cpp)</td>
+  <td>myList.erase(iterator_pos, iterator_pos) This site was built using [GitHub Pages](https://pages.github.com/).</td>
   <td>Delete elements from a specific position.</td>
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
