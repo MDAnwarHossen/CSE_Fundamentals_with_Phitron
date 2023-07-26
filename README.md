@@ -852,9 +852,8 @@ A[3] - A[1-1];
   <td>O(1)</td>
 </tr>
 <tr>
-  <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png"><td>myList.insert(pos, val)
-
-<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/myList_insert.cpp" target="_blank"> See Code </a>
+  <td><img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png">myList.insert(pos, val)
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/myList_insert.cpp" target="_blank"> See Code </a></td>
 
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
