@@ -756,34 +756,34 @@ A[3] - A[1-1];
 <h5>1. Constructor</h5>
 <table>
 <tr>
-  <th>Name<th>
-  <th>Details<th>
-  <th>Time Complexity<th>
+  <th>Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
 </tr>
 <tr>
-  <td>list<'type'>myList<td>
-  <td>Construct a list with 0 elements<td>
-  <td>O(1)<td>
+  <td>list<'type'>myList</td>
+  <td>Construct a list with 0 elements</td>
+  <td>O(1)</td>
 </tr>
 <tr>
-  <td>list<'type'>myList(N)<td>
-  <td>Construct a list with N elements and the value will be garbage<td>
-  <td>O(N)<td>
+  <td>list<'type'>myList(N)</td>
+  <td>Construct a list with N elements and the value will be garbage</td>
+  <td>O(N)</td>
 </tr>
 <tr>
-  <td>list<'type'>myList(N,V)<td>
-  <td>Construct a list with N elements and the value will be V<td>
-  <td>O(N)<td>
+  <td>list<'type'>myList(N,V)</td>
+  <td>Construct a list with N elements and the value will be V</td>
+  <td>O(N)</td>
 </tr>
 <tr>
-  <td>list<'type'>myList(list2)<td>
-  <td>Construct a list by copying another list list2<td>
-  <td>O(N)<td>
+  <td>list<'type'>myList(list2)</td>
+  <td>Construct a list by copying another list list2</td>
+  <td>O(N)</td>
 </tr>
 <tr>
-  <td>list<'type'>myList(A,A+N)<td>
-  <td>Construct a list by copying all elements from an array A of size N<td>
-  <td>O(N)<td>
+  <td>list<'type'>myList(A,A+N)</td>
+  <td>Construct a list by copying all elements from an array A of size N</td>
+  <td>O(N)</td>
 </tr>
 
 </table>
