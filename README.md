@@ -854,7 +854,14 @@ A[3] - A[1-1];
 <tr>
   <td>myList.insert(pos, val) 
   
-  > __Note__
+  
+  ```diff
+  - text in red
+  + text in green
+  ! text in orange
+  # text in gray
+  @@ text in purple (and bold)@@
+  ```
   *Check note below</td>
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
