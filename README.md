@@ -854,10 +854,7 @@ A[3] - A[1-1];
 <tr>
   <td>myList.insert(pos, val)
 
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
-- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
-- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
-
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
 \*Check note below</td>
 
   <td>Insert elements at a specific position.</td>
