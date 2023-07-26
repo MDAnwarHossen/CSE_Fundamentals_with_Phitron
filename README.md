@@ -870,7 +870,7 @@ A[3] - A[1-1];
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
 <tr>
-  <td>myList.erase(iterator_pos, iterator_pos) This site was built using [GitHub Pages](https://pages.github.com/).</td>
+  <td>myList.erase(iterator_pos, iterator_pos) <a href="https://github.com/Murad9288" target="_blank"> Murad GitHub </a></td>
   <td>Delete elements from a specific position.</td>
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
