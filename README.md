@@ -998,6 +998,14 @@ int main()
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Detect-loop-in-a-linked-list.png">
 
 </details>
+<details>
+<summary>
+  
+## 13-3 What is Stack
+</summary>
+<p>Paragraph</p>
+
+</details>
 
 </blockquote></details>
 </blockquote></details>
