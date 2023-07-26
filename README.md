@@ -641,7 +641,8 @@ int main()
 </table>
 <h4>4. Element access</h4>
 <table style="width:100% !important">
-  <tr style="width:100% !important">
+<tbody style="width:100% !important">
+  <tr>
     <th>Name</th>
     <th>Details</th>
     <th>Time Complexity</th>
@@ -666,6 +667,7 @@ int main()
     <td>Access the first element</td>
     <td>O(1)</td>
   </tr>
+  <tbody>
 </table>
 <h4>5. Iterators</h4>
 <table>
