@@ -640,7 +640,7 @@ int main()
   </tr>
 </table>
 <h4>4. Element access</h4>
-<table>
+<table style="width:100%">
   <tr>
     <th>Name</th>
     <th>Details</th>
