@@ -29,20 +29,22 @@ int main()
     b->next = c;
     c->next = d;
     d->next = e;
+    e->next = a;
 
     ListNode *fast_p = head;
     ListNode *slow_p = head;
 
+    int flag = 0;
     while (fast_p != NULL && fast_p->next != NULL)
     {
         fast_p = fast_p->next->next;
         slow_p = slow_p->next;
         if (fast_p == slow_p)
         {
-            return true;
+            flag = 1;
+            break;
         }
     }
-    return false;
-
+    flag ? cout << "Cycle Detected" : cout << "Cycle NOT Detected";
     return 0;
 }
