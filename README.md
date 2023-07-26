@@ -865,12 +865,12 @@ A[3] - A[1-1];
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
 <tr>
-  <td>myList.erase(iterator_position)<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/blue.png">Check note below</td>
+  <td>myList.erase(iterator_position)<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/erase.cpp" target="_blank"> See Code </a></td>
   <td>Delete elements from a specific position.</td>
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
 <tr>
-  <td>myList.erase(iterator_pos, iterator_pos) <a href="https://github.com/Murad9288" target="_blank"> Murad GitHub </a></td>
+  <td>myList.erase(iterator_pos, iterator_pos) <a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/erase.cpp" target="_blank"> See Code </a></td>
   <td>Delete elements from a specific position.</td>
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
