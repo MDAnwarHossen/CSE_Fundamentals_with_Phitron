@@ -899,7 +899,7 @@ int main()
 ```
 
 <h5>Method 2</h5>
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png">
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Capture.PNG">
 
 <h5>4. Operations</h5>
 <table>
