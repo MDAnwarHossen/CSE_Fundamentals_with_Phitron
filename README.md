@@ -854,13 +854,13 @@ A[3] - A[1-1];
 <tr>
   <td>myList.insert(pos, val)
 
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png">Check note below</td>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png"><a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/myList_insert.cpp" target="_blank"> See Code </a>
 
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
 <tr>
-  <td>myList.insert(pos,Num_of_element_to_insert, val)
+  <td>myList.insert(pos,Num_of_ele_to_insert, val) <a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/myList_insert.cpp" target="_blank"> See Code </a></td>
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
@@ -890,22 +890,9 @@ There are two methods to traverse to a specific position in a linked list.
 <h5>Method 1</h5>
 
 ```c++
-#include <bits/stdc++.h>
-using namespace std;
-
-int main()
-{
-    list<int> myList;         // declaring list
-    myList.assign(3, 2);      // creates 2 2 2 nodes to the list
-    auto it = myList.begin(); // create a iterator to beginning
-    advance(it, 2);           // Go to that position. Here after 2 position. That means 3rd position.
-    myList.insert(it, 5);     // inserts 5 at 3rd position
-    for (auto i = myList.begin(); i != myList.end(); i++)
-    {
-        cout << *i << " ";    //2 2 5 2
-    }
-    return 0;
-}
+auto pos = myList.begin();  // create a iterator to beginning
+advance(pos, 2);            //Go to that pos. Here pos 2. Means after 2 pos
+myList.insert(pos, 5);      // inserts 5 at 3rd position
 ```
 
 <h5>Method 2</h5>
@@ -997,7 +984,7 @@ int main()
 <p>The below image shows how the detect loop function works in the code:</p>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Detect-loop-in-a-linked-list.png">
 <h5>Here is the implementation of the above approach.</h5>
-<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/erase.cpp" target="_blank"> See Code </a>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/Linked_List_Cycle.cpp" target="_blank"> See Code </a>
 
 </details>
 <details>
