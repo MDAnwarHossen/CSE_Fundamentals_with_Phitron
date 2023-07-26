@@ -865,7 +865,12 @@ A[3] - A[1-1];
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
 <tr>
-  <td>myList.erase()</td>
+  <td>myList.erase(iterator_position)<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/blue.png">Check note below</td>
+  <td>Delete elements from a specific position.</td>
+  <td>O(N+K); where K is the number of elements to be deleted.</td>
+</tr>
+<tr>
+  <td>myList.erase(iterator_pos, iterator_pos)<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/blue.png">Check note below</td>
   <td>Delete elements from a specific position.</td>
   <td>O(N+K); where K is the number of elements to be deleted.</td>
 </tr>
@@ -906,6 +911,7 @@ int main()
 <h5>Method 2</h5>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Capture.PNG">
 
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/blue.png">
 <h5>4. Operations</h5>
 <table>
 <tr>
