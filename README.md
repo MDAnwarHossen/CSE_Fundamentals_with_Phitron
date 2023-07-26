@@ -890,6 +890,11 @@ int main()
     auto it = myList.begin(); // create a iterator to beginning
     advance(it, 2);           // Go to that position. Here after 2 position. That means 3rd position.
     myList.insert(it, 5);     // inserts 5 at 3rd position
+    for (auto i = myList.begin(); i != myList.end(); i++)
+    {
+        cout << *i << " ";    //2 2 5 2
+    }
+    return 0;
 }
 ```
 
