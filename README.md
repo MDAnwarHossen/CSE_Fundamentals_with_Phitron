@@ -879,13 +879,13 @@ A[3] - A[1-1];
 There are two methods to traverse to a specific position in a linked list.
 <h5>Method 1</h5>
 
-    ```c++
-      list<int> myList; // declaring list
-      myList.assign(3, 2); // creates 2 2 2 nodes to the list
-      auto it = myList.begin(); //create a iterator to beginning
-      advance(it, 2); // Go to that position. Here after 2 position. That means 3rd position
-      myList.insert(it, 5); // inserts 5 at 3rd position
-    ```
+```c++
+  list<int> myList; // declaring list
+  myList.assign(3, 2); // creates 2 2 2 nodes to the list
+  auto it = myList.begin(); //create a iterator to beginning
+  advance(it, 2); // Go to that position. Here after 2 position. That means 3rd position
+  myList.insert(it, 5); // inserts 5 at 3rd position
+```
 
 <h5>4. Operations</h5>
 <table>
