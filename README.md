@@ -736,7 +736,7 @@ A[3] - A[1-1];
 <h5>What is Linked List?</h5>
 <p>Linked lists are linear data structures that hold data in individual objects called nodes. These nodes hold both the data and a reference to the next node in the list</p>
 
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/binary-search.jpg">
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/LLdrawio.png">
 <h5>Why do we need linked lists?</h5>
 <ul>
 <li>Efficient Insertions and Deletions</li>
