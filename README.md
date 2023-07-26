@@ -860,7 +860,7 @@ A[3] - A[1-1];
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
 <tr>
-  <td>myList.insert(pos,Number_of_elements_to_insert, val)
+  <td>myList.insert(pos,Num_of_element_to_insert, val)
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
@@ -910,8 +910,6 @@ int main()
 
 <h5>Method 2</h5>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Capture.PNG">
-
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/blue.png">
 <h5>4. Operations</h5>
 <table>
 <tr>
@@ -986,6 +984,19 @@ int main()
 <td>O(1)</td>
 </tr>
 </table>
+</details>
+<details>
+<summary>
+  
+## 10-8 Detect Cycle in Singly Linked List
+</summary>
+<h5>Detect loop in a linked list using Floyd’s Cycle-Finding Algorithm</h5>
+<p>This algorithm is used to find a loop in a linked list. It uses two pointers. Move one pointer(slow_p) by one and another pointer(fast_p) by two. The faster one is called the faster pointer(fast_p) and the other one is called the slow pointer(slow_p).</p>
+<p>If these pointers meet at the same node then there is a loop. If pointers do not meet then the linked list doesn’t have a loop.</p>
+<h5>Illustration:</h5>
+<p>The below image shows how the detect loop function works in the code:</p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
+
 </details>
 
 </blockquote></details>

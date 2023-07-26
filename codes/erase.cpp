@@ -16,7 +16,7 @@ int main()
 
     auto itr = myList.begin();
 
-    // Incrementing itr2 by 3 positions
+    // Incrementing itr by 3 positions
     advance(itr, 3);
 
     // deleting an elements from after pos 3
