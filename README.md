@@ -785,9 +785,167 @@ A[3] - A[1-1];
   <td>Construct a list by copying all elements from an array A of size N</td>
   <td>O(N)</td>
 </tr>
-
 </table>
-
+<h5>2. Capacity</h5>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+  <td>myList.size()</td>
+  <td>Returns the size of the list</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.empty()</td>
+  <td>Return true/false if the list is empty or not.</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.max_size()</td>
+  <td>Returns the maximum size that the vector can hold</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.clear()</td>
+  <td>Clears the list elements. Do not delete the memory, only clear the list.</td>
+  <td>O(N)</td>
+</tr>
+<tr>
+  <td>myList.resize(v)</td>
+  <td>Change the size of the list</td>
+  <td>O(v); where v is the difference between new size and current size.</td>
+</tr>
+</table>
+<h5>3. Modifiers</h5>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+  <td>myList= or myList.assign(list2.begin(),list2.end())</td>
+  <td>Assign another list.</td>
+  <td>O(N)</td>
+</tr>
+<tr>
+  <td>myList.push_back(val)</td>
+  <td>Add an element to the tail</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.push_front(val)</td>
+  <td>Add an element to the head.</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.pop_back()</td>
+  <td>Delete the tail.</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.pop_front()</td>
+  <td>Delete the head.</td>
+  <td>O(1)</td>
+</tr>
+<tr>
+  <td>myList.insert(pos, val)</td>
+  <td>Insert elements at a specific position.</td>
+  <td>O(N+K); where K is the number of elements to be inserted.</td>
+</tr>
+<tr>
+  <td>myList.erase()</td>
+  <td>Delete elements from a specific position.</td>
+  <td>O(N+K); where K is the number of elements to be deleted.</td>
+</tr>
+<tr>
+  <td>replace(myList.begin(),myList.end(),value,replace_value)</td>
+  <td>Replace all the value with replace_value. Not under a list STL.</td>
+  <td>O(N)</td>
+</tr>
+<tr>
+  <td>find(myList.begin(),myList.end(),V)</td>
+  <td>Find the value V. Not under a list STL.</td>
+  <td>O(N)</td>
+</tr>
+</table>
+<h5>4. Operations</h5>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+  <td>myList.sort()</td>
+  <td>Sort the list in ascending order.</td>
+  <td>O(NlogN)</td>
+</tr>
+<tr>
+  <td>O(NlogN)</td>
+  <td>Sort the list in descending order</td>
+  <td>O(NlogN)</td>
+</tr>
+<tr>
+  <td>myList.reverse()</td>
+  <td>Reverse the list.</td>
+  <td>O(N)</td>
+</tr>
+<tr>
+  <td>myList.remove(V)</td>
+  <td>Remove the value V from the list.</td>
+  <td>O(N)</td>
+</tr>
+<tr>
+  <td>myList.unique()</td>
+  <td>Deletes the duplicate values from the list. You must sort the list first.</td>
+  <td>O(N), with sort O(NlogN)</td>
+</tr>
+</table>
+<h5>5. Element access</h5>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+<td>myList.back()</td>
+<td>Access the tail element.</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>myList.front()</td>
+<td>Access the head element.</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>next(myList.begin(),i)</td>
+<td>Access the ith element</td>
+<td>O(1)</td>
+</tr>
+</table>
+<h5>6. Iterators</h5>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+<td>myList.begin()</td>
+<td>Pointer to the first element.</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>myList.end()</td>
+<td>Pointer to the last element.</td>
+<td>O(1)</td>
+</tr>
+</table>
 </details>
 
 </blockquote></details>
