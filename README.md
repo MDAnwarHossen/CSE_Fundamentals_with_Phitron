@@ -853,6 +853,7 @@ A[3] - A[1-1];
 </tr>
 <tr>
   <td>myList.insert(pos, val) 
+  
   > __Note__
   *Check note below</td>
   <td>Insert elements at a specific position.</td>
