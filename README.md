@@ -860,6 +860,11 @@ A[3] - A[1-1];
   <td>O(N+K); where K is the number of elements to be inserted.</td>
 </tr>
 <tr>
+  <td>myList.insert(pos,Number_of_elements_to_insert, val)
+  <td>Insert elements at a specific position.</td>
+  <td>O(N+K); where K is the number of elements to be inserted.</td>
+</tr>
+<tr>
   <td>myList.erase()</td>
   <td>Delete elements from a specific position.</td>
   <td>O(N+K); where K is the number of elements to be deleted.</td>
