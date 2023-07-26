@@ -854,8 +854,7 @@ A[3] - A[1-1];
 <tr>
   <td>myList.insert(pos, val)
 
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png">
-\*Check note below</td>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png">Check note below</td>
 
   <td>Insert elements at a specific position.</td>
   <td>O(N+K); where K is the number of elements to be inserted.</td>
@@ -876,6 +875,22 @@ A[3] - A[1-1];
   <td>O(N)</td>
 </tr>
 </table>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/red.png">
+There are two methods to traverse to a specific position in a linked list.
+<h5>Method 1</h5>
+
+```
+  list<int> myList; // declaring list
+
+  myList.assign(3, 2); // creates 2 2 2 nodes to the list
+
+  auto it = myList.begin(); //create a iterator to beginning
+
+  advance(it, 2); // Go to that position. Here after 2 position. That means 3rd position
+
+  myList.insert(it, 5); // inserts 5 at 3rd position
+```
+
 <h5>4. Operations</h5>
 <table>
 <tr>
