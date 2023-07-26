@@ -995,7 +995,7 @@ int main()
 <p>If these pointers meet at the same node then there is a loop. If pointers do not meet then the linked list doesn’t have a loop.</p>
 <h5>Illustration:</h5>
 <p>The below image shows how the detect loop function works in the code:</p>
-<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/prefix_Sum.jpg">
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Detect-loop-in-a-linked-list.png">
 
 </details>
 
