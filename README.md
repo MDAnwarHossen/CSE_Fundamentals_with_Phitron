@@ -996,6 +996,8 @@ int main()
 <h5>Illustration:</h5>
 <p>The below image shows how the detect loop function works in the code:</p>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Detect-loop-in-a-linked-list.png">
+<h5>Here is the implementation of the above approach.</h5>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/erase.cpp" target="_blank"> See Code </a>
 
 </details>
 <details>
