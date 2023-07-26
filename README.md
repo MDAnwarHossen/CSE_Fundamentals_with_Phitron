@@ -885,7 +885,7 @@ A[3] - A[1-1];
   <td>O(NlogN)</td>
 </tr>
 <tr>
-  <td>O(NlogN)</td>
+  <td>myList.sort(greater<type>())</td>
   <td>Sort the list in descending order</td>
   <td>O(NlogN)</td>
 </tr>
