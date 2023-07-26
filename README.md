@@ -880,37 +880,12 @@ There are two methods to traverse to a specific position in a linked list.
 <h5>Method 1</h5>
 
 ```c++
-  list<int> myList; // declaring list
-  myList.assign(3, 2); // creates 2 2 2 nodes to the list
-  auto it = myList.begin(); //create a iterator to beginning
-  advance(it, 2); // Go to that position. Here after 2 position. That means 3rd position
-  myList.insert(it, 5); // inserts 5 at 3rd position
-  A very <span style='color: red;'>long</span> sentence.
+list<int> myList; // declaring list
+myList.assign(3, 2); // creates 2 2 2 nodes to the list
+auto it = myList.begin(); //create a iterator to beginning
+advance(it, 2); /* Go to that position. Here after 2 position. That means 3rd position*/
+myList.insert(it, 5); // inserts 5 at 3rd position
 ```
-
-<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h1 {
-                color: red;
-                animation: mymove 2s infinite;
-            }
-
-            @keyframes mymove {
-                from {
-                    color: red;
-                }
-                to {
-                    color: yellow;
-                }
-            }
-            </style>
-            <h1>HELLO WORLD!</h1>
-        </div>
-    </foreignObject>
-
-</svg>
 
 <h5>4. Operations</h5>
 <table>
