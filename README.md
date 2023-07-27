@@ -1103,6 +1103,7 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <li>All nodes of right subtree are more than the root node</li>
 </ul>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/bst.jpeg">
+<p>The binary tree on the right isn't a binary search tree because the right subtree of the node "3" contains a value smaller than it.</p>
 
 </details>
 
