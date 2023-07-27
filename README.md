@@ -1092,6 +1092,19 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Binary_Tree.PNG">
 
 </details>
+<details>
+<summary>
+  
+## 21-1 What is BST (Binary Search Tree)
+</summary>
+<p>A Binary Search Tree (BST) is a specialized form of a binary tree data structure that follows some order to arrange the elements. The properties that separate a binary search tree from a regular binary tree is- </p>
+<ul>
+<li>All nodes of left subtree are less than the root node</li>
+<li>All nodes of right subtree are more than the root node</li>
+</ul>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/bst.jpeg">
+
+</details>
 
 </blockquote></details>
 </blockquote></details>
