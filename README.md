@@ -991,7 +991,41 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
   
 ## 13-3 What is Stack
 </summary>
-<p>Paragraph</p>
+<p>A "stack" is data structure that operates on a last-in, first-out (LIFO) basis. It is a collection of elements where elements are added and removed from the same end, known as the "top" of the stack. The last element added to the stack will be the first one to be removed.</p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Stack-Data-Structure.png">
+<h5>The functions associated with stack are:</h5>
+<table>
+<tr>
+  <th>Function Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+  <th>empty()</th>
+  <th>Returns whether the stack is empty</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>size()</th>
+  <th>Returns the size of the stack</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>top()</th>
+  <th>Returns a reference to the top most element of the stack</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>push(val)</th>
+  <th>Adds the element ‘val’ at the top of the stack</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>pop()</th>
+  <th>Deletes the most recent entered element of the stack</th>
+  <th>O(1)</th>
+</tr>
+</table>
 
 </details>
 
