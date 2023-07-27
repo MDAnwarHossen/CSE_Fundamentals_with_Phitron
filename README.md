@@ -1104,6 +1104,16 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 </ul>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/bst.jpeg">
 <p>The binary tree on the right isn't a binary search tree because the right subtree of the node "3" contains a value smaller than it.</p>
+</details>
+<details>
+<summary>
+  
+## 22-1 What is Complete Binary Tree
+
+</summary>
+<p>A complete binary tree is a special type of binary tree where all the levels of the tree are filled completely except the lowest level nodes which are filled from as left as possible. </p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/complete_binary_1.jpg">
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/complete_binary_2.jpg">
 
 </details>
 
