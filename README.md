@@ -991,9 +991,9 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
   
 ## 13-3 What is Stack
 </summary>
-<p>A "stack" is data structure that operates on a last-in, first-out (LIFO) basis. It is a collection of elements where elements are added and removed from the same end, known as the "top" of the stack. The last element added to the stack will be the first one to be removed.</p>
+<p>A "stack" is a data structure that operates on a last-in, first-out (LIFO) basis. It is a collection of elements where elements are added and removed from the same end, known as the "top" of the stack. The last element added to the stack will be the first one to be removed.</p>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Stack-Data-Structure.png">
-<h5>The functions associated with stack are:</h5>
+<h5>The method functions associated with stack are:</h5>
 <table>
 <tr>
   <th>Function Name</th>
@@ -1001,31 +1001,95 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
   <th>Time Complexity</th>
 </tr>
 <tr>
-  <th>empty()</th>
+  <th>st.empty()</th>
   <th>Returns whether the stack is empty</th>
   <th>O(1)</th>
 </tr>
 <tr>
-  <th>size()</th>
+  <th>st.size()</th>
   <th>Returns the size of the stack</th>
   <th>O(1)</th>
 </tr>
 <tr>
-  <th>top()</th>
+  <th>st.top()</th>
   <th>Returns a reference to the top most element of the stack</th>
   <th>O(1)</th>
 </tr>
 <tr>
-  <th>push(val)</th>
+  <th>st.push(val)</th>
   <th>Adds the element ‘val’ at the top of the stack</th>
   <th>O(1)</th>
 </tr>
 <tr>
-  <th>pop()</th>
+  <th>st.pop()</th>
   <th>Deletes the most recent entered element of the stack</th>
   <th>O(1)</th>
 </tr>
 </table>
+</details>
+<details>
+<summary>
+  
+## What is Queue
+</summary>
+<p>A "queue" is a data structure that operates on a first-in, first-out (FIFO) basis. It is a collection of elements where elements are added at the rear (also called the "enqueue"(or Push) operation) and removed from the front (also called the "dequeue"(or Pop) operation).</p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Queue-Data-structure1.png">
+<h5>The method functions associated with queue are:</h5>
+<table>
+<tr>
+  <th>Function Name</th>
+  <th>Details</th>
+  <th>Time Complexity</th>
+</tr>
+<tr>
+  <th>q.empty()</th>
+  <th>Returns whether the queue is empty. It return true if the queue is empty otherwise returns false.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.size()</th>
+  <th>Returns the size of the queue.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.push(val)</th>
+  <th>Adds the element ‘val’ at the end of the queue.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.pop() </th>
+  <th>Deletes the first element of the queue.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.front() </th>
+  <th>Returns a reference to the first element of the queue.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.back() </th>
+  <th>Returns a reference to the last element of the queue.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.emplace() </th>
+  <th>Insert a new element into the queue container, the new element is added to the end of the queue.</th>
+  <th>O(1)</th>
+</tr>
+<tr>
+  <th>q.swap() </th>
+  <th>Exchange the contents of two queues but the queues must be of the same data type, although sizes may differ.</th>
+  <th>O(1)</th>
+</tr>
+</table>
+</details>
+<details>
+<summary>
+  
+## 17-3 Discussion about Binary Tree
+</summary>
+<p>A binary tree is a tree-type non-linear data structure with a maximum of two children for each parent. Every node in a binary tree has a left and right reference along with the data element. The node at the top of the hierarchy of a tree is called the root node.</p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Binary_Tree.PNG">
 
 </details>
 
