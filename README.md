@@ -1107,6 +1107,8 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <p>To create a Binary Tree we will use a breadth-first traversal (level-order traversal) instead of a recursive approach for insertion.</p>
 <h5>If the inputs are already sorted as Binary search tree:</h5>
 <a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/insertIntoBinaryTree.cpp" target="_blank"> See Code </a>
+<h5>Convert sorted array to Binary search tree</h5>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/convert_array_to_BST.cpp" target="_blank"> See Code </a>
 
 </details>
 <details>
