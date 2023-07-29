@@ -1090,6 +1090,23 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 </summary>
 <p>A binary tree is a tree-type non-linear data structure with a maximum of two children for each parent. Every node in a binary tree has a left and right reference along with the data element. The node at the top of the hierarchy of a tree is called the root node.</p>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Binary_Tree.PNG">
+<h5>Applications of Binary Tree:</h5>
+<ul>
+<li>Binary tree can be used in a searching algorithms such as 'Binary search' which can be used to quickly find an element in a sorted list.</li>
+<li>Binary trees can be used to implement sorting algorithms, such as in heap sort which uses a binary heap to sort elements efficiently.</li>
+<li>Binary trees can be used in machine learning algorithms or AI. They provide a decision-making process that is done through the binary tree structure.</li>
+<li>There is a Syntax tree in a compiler which done through binary tree</li>
+</ul>
+
+</details>
+<details>
+<summary>
+  
+## 17-4 Create a Binary Tree
+</summary>
+<p>To create a Binary Tree we will use a breadth-first traversal (level-order traversal) instead of a recursive approach for insertion.</p>
+<h5>If the inputs are already sorted as Binary search tree:</h5>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/insertIntoBinaryTree.cpp" target="_blank"> See Code </a>
 
 </details>
 <details>
