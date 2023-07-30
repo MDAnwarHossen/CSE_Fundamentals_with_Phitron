@@ -1137,6 +1137,27 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <details>
 <summary>
   
+## 18-5 Count Number of Nodes in a Binary Tree
+</summary>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/Count_Number_of_Nodes_in_a_Binary_Tree.cpp" target="_blank"> See Code </a>
+</details>
+<details>
+<summary>
+  
+## 18-6 Count Number of Leaf Nodes in a Binary Tree
+</summary>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/Count_Number_of_Leaf_Nodes_in_a_Binary_Tree.cpp" target="_blank"> See Code </a>
+</details>
+<details>
+<summary>
+  
+## 18-7 Get the Maximum Height of a Binary Tree
+</summary>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/Get_the_Maximum_Height_of_a_Binary_Tree.cpp" target="_blank"> See Code </a>
+</details>
+<details>
+<summary>
+  
 ## 21-1 What is BST (Binary Search Tree)
 </summary>
 <p>A Binary Search Tree (BST) is a specialized form of a binary tree data structure that follows some order to arrange the elements. The properties that separate a binary search tree from a regular binary tree is- </p>
