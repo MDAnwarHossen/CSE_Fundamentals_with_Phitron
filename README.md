@@ -475,36 +475,43 @@ int main()
 <table>
   <tr>
     <th>Big O notation</th>
+    <th>Known As</th>
     <th>Input size</th>
     <th>Example</th>
   </tr>
   <tr>
     <td>O(1)</td>
+    <td>Constant Time Complexity</td>
     <td></td>
     <td></td>
   </tr>
    <tr>
     <td>O(log N)</td>
+    <td>Logarithmic Time Complexity</td>
      <td>10<sup>18</sup></td>
      <td>Binary search, binary heaps, merge sort, and quicksort</td>
   </tr>
   <tr>
     <td>O($\sqrt{N}$)</td>
+    <td>Square Root Time Complexity</td>
      <td>10<sup>14</sup></td>
     <td>Checking perfect square, Checking prime numbe</td>
   </tr>
   <tr>
     <td>O(N)</td>
+    <td>Linear Time Complexity</td>
      <td>10<sup>7</sup></td>
     <td>Arrays, Linked Lists, Linear Search, Bubble Sort, Selection Sort, Counting Sort</td>
   </tr>
   <tr>
     <td>O(N log(N))</td>
+    <td>Linearithmic Time Complexity</td>
      <td>10<sup>5</sup></td>
     <td>Merge Sort, QuickSort, Heap Sort</td>
   </tr>
   <tr>
     <td>O(N*N)</td>
+    <td>Quadratic Time Complexity</td>
      <td>10<sup>3</sup></td>
     <td>Bubble Sort, Selection Sort, Insertion Sort</td>
   </tr>
@@ -1123,6 +1130,8 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/Post_Order_Traversal.cpp" target="_blank"> See Code </a>
 <h5>In Order Traversal of Binary Tree</h5>
 <a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/in_Order_Traversal.cpp" target="_blank"> See Code </a>
+<h5>Level Order Traversal of Binary Tree</h5>
+<a href="https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/codes/insertIntoBinaryTree.cpp" target="_blank"> See Code </a>
 
 </details>
 <details>

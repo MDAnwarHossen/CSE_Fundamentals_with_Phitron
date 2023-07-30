@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/********************* CREATE NODE *****************************/
 class Node
 {
 public:
@@ -14,10 +14,14 @@ public:
         this->right = NULL;
     }
 };
-/*
+/*********************************************************
+
 Input: 8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
 Output: 8 3 10 1 6 14 4 7 13
-*/
+
+**********************************************************/
+
+/**************CREATE BINARY SEARCH TREE (inputs are already sorted as Binary search tree)*******/
 Node *make_tree()
 {
     int val;
@@ -49,7 +53,7 @@ Node *make_tree()
     return root;
 }
 
-/****************PRINT********************/
+/****************PRINT (Level Order Traversal) ********************/
 void print(Node *root)
 {
     queue<Node *> q;
@@ -73,7 +77,7 @@ void print(Node *root)
         }
     }
 }
-
+/************************** MAIN FUNCTION******************************/
 int main()
 {
     Node *root = make_tree();

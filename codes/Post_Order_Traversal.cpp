@@ -14,10 +14,14 @@ public:
         this->right = NULL;
     }
 };
-/*
+/****************************** SAMPLE INPUT & OUTPUT ***********
+
 Input: 8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
 Output: 1 4 7 6 3 13 14 10 8
-*/
+
+***************************************************************/
+
+/**************CREATE BINARY SEARCH TREE (inputs are already sorted as Binary search tree)*******/
 Node *make_tree()
 {
     int val;
@@ -49,7 +53,7 @@ Node *make_tree()
     return root;
 }
 
-/****************PRINT********************/
+/****************PRINT (Post Order Traversal) ********************/
 void post_order_print(Node *root)
 {
     if (root == NULL)
@@ -60,7 +64,7 @@ void post_order_print(Node *root)
     post_order_print(root->right);
     cout << root->val << " ";
 }
-
+/************************** MAIN FUNCTION******************************/
 int main()
 {
     Node *root = make_tree();

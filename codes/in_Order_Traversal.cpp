@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/********************* CREATE NODE *****************************/
 class Node
 {
 public:
@@ -14,10 +14,14 @@ public:
         this->right = NULL;
     }
 };
-/*
+/**************** SAMPLE INPUT & OUTPUT ********************
+
 Input: 8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
 Output: 1 3 4 6 7 8 10 13 14
-*/
+
+********************************************************/
+
+/************ CREATE BINARY SEARCH TREE (inputs are already sorted as Binary search tree) ********************/
 Node *make_tree()
 {
     int val;
@@ -49,7 +53,7 @@ Node *make_tree()
     return root;
 }
 
-/****************PRINT********************/
+/**************** PRINT (In Order Traversal) ********************/
 void in_order_print(Node *root)
 {
     if (root == NULL)
@@ -60,7 +64,7 @@ void in_order_print(Node *root)
     cout << root->val << " ";
     in_order_print(root->right);
 }
-
+/**************** MAIN FUNCTION ********************/
 int main()
 {
     Node *root = make_tree();

@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+/********************* CREATE NODE *****************************/
 class Node
 {
 public:
@@ -13,6 +14,15 @@ public:
         this->right = NULL;
     }
 };
+
+/***************************** SAMPLE INPUT & OUTPUT ***********************
+
+ INPUT: 10 50 90 20 30 40M 80 70 60
+ OUTPUT: 50 20 70 10 30 60 80 40 90
+
+ ************************************************************************/
+
+/********************* SORTED ARRAY TO BST ***************************/
 Node *sortedArrayToBST(vector<int> v, int L, int R)
 {
     if (L > R)
@@ -27,7 +37,7 @@ Node *sortedArrayToBST(vector<int> v, int L, int R)
     root->right = rightRoot;
     return root;
 }
-/****************PRINT********************/
+/****************PRINT (Level Order Traversal) ********************/
 void print(Node *root)
 {
     queue<Node *> q;
@@ -51,7 +61,7 @@ void print(Node *root)
         }
     }
 }
-
+/************************** MAIN FUNCTION******************************/
 int main()
 {
     vector<int> v = {10, 50, 90, 20, 30, 40, 80, 70, 60};
