@@ -565,7 +565,7 @@ int main()
     <td>O(N)</td>
   </tr>
   <tr>
-    <td>vector<<'vector<'type''>> v(m, vector<'type'>(n))</td>
+    <td>vector<'vector<'type''>> v(m, vector<'type'>(n))</td>
     <td>create a 2D vector with 'm' rows and 'n' columns, initialized with a default value for each element.</td>
     <td>O(N*N)</td>
   </tr>
