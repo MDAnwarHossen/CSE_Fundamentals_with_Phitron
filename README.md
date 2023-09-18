@@ -1186,6 +1186,7 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <p>A complete binary tree is a special type of binary tree where all the levels of the tree are filled completely except the lowest level nodes which are filled from as left as possible. </p>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/complete_binary_1.jpg">
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/complete_binary_2.jpg">
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Complete-Binary-Tree.png">
 
 </details>
 
