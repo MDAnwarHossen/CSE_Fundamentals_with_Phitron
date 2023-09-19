@@ -1199,11 +1199,56 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 <p>Here's how you can represent a complete binary tree as an array:</p>
 <ul>
 <li>Root of the tree is stored at index 0.</li>
-<li>For any node at index i, its left child is at index 2*i + 1, and its right child is at index 2*i + 2.</li>
+<li>For any node at index i, its left child is at index i*2 + 1, and its right child is at index i*2 + 2.</li>
 <li>For any node at index i, its parent is at index (i - 1) / 2, where / represents integer division (floor division).</li>
 </ul>
 <p>Here's a visual representation of how this works for a small complete binary tree:</p>
 <img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Complete_Binary_Tree_to_array.PNG">
+</details>
+
+<details>
+<summary>
+  
+## 22-3 What is Heap
+
+</summary>
+<p>A Heap is a special Tree-based data structure in which the tree is a complete binary tree.</p>
+<p>There are two common types of heaps: the min-heap and the max-heap.</p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/MinHeapAndMaxHeap1.png">
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Details</th>
+    <th>Time Complexity</th>
+  </tr>
+  <tr>
+    <td>make_heap(array.begin(), array.end())</td>
+    <td>We can use make_heap() function to create a max heap from an array. This function will rearrange an array into a valid heap</td>
+    <td>O(nlogn)</td>
+  </tr>
+  <tr>
+    <td>make_heap(numbers.begin(), numbers.end(), greater<int>())</td>
+    <td>As same as previous function. But this will create a min heap because of comparison function</td>
+    <td>O(nlogn)</td>
+  </tr>
+  <tr>
+    <td>push_heap(array.begin(), array.end())</td>
+    <td>If the array is already a heap array, we have just inputted one new element at the end of the array. We can use push_heap() instead of make_heap() function.</td>
+    <td>O(logn)</td>
+  </tr>
+  <tr>
+    <td>pop_heap(array.begin(), array.end())</td>
+    <td>Remove the root element (minimum or maximum, depending on the heap type) from the heap while maintaining the heap property. This function will remove and place the root element at the end of the array. To remove it from the array we have to use array.pop_back() function</td>
+    <td>O(logn)</td>
+  </tr>
+  <tr>
+    <td>is_heap(array.begin(), array.end())</td>
+    <td>is_heap() function is used to check whether the given range of the array is a heap or not. By default, it checks for max heap but we can also use a comparator to make it work for min heap.</td>
+    <td>O(n)</td>
+  </tr>
+  </table>
+
 </details>
 
 </blockquote></details>
