@@ -1190,6 +1190,22 @@ myList.insert(pos, 5);      // inserts 5 at 3rd position
 
 </details>
 
+<details>
+<summary>
+  
+## 22-2 Array Representation of Complete Binary Tree
+
+</summary>
+<p>Here's how you can represent a complete binary tree as an array:</p>
+<ul>
+<li>Root of the tree is stored at index 0.</li>
+<li>For any node at index i, its left child is at index 2*i + 1, and its right child is at index 2*i + 2.</li>
+<li>For any node at index i, its parent is at index (i - 1) / 2, where / represents integer division (floor division).</li>
+</ul>
+<p>Here's a visual representation of how this works for a small complete binary tree:</p>
+<img src = "https://github.com/MDAnwarHossen/CSE_Fundamentals_with_Phitron/blob/main/images/Complete_Binary_Tree_to_array.PNG">
+</details>
+
 </blockquote></details>
 </blockquote></details>
 
